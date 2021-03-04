@@ -35,7 +35,7 @@ def processInput(passedVal):
   input('Hit the Enter key to continue')
 
 
-fh = open('Mac_menu.csv.txt', 'r')
+fh = open('Mac_menu.csv', 'r')
 fh.readline()
 
 for line in fh:
@@ -45,7 +45,7 @@ for line in fh:
   result = tuple(line)
   data.append(result)
 
-# The file Mac_Menu.csv must be uploaded to the same folder in order to open the file
+# The file Mac_Menu.csv must be uploaded to the same folder in order to open the file. Only works with MacOS. 
 
 fh.close()
 
